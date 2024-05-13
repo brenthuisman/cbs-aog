@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220.13699mm"
+   height="83.898453mm"
+   viewBox="0 0 220.13699 83.898453"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="conc.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0708599"
+     inkscape:cx="168.08921"
+     inkscape:cy="67.235686"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="1"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7-74" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.95921,-89.340933)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none;marker-end:url(#ArrowWide)"
+       d="M 52.971617,126.08687 91.058139,97.78405"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none;marker-end:url(#ArrowWide-2)"
+       d="m 53.549312,140.85396 38.08652,28.30283"
+       id="path1-7" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none;marker-end:url(#ArrowWide-1)"
+       d="m 146.61281,170.01779 38.08653,-28.30283"
+       id="path1-8" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none;marker-end:url(#ArrowWide-7)"
+       d="m 146.61281,96.923037 38.08653,28.302833"
+       id="path1-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="11.96861"
+       y="133.42082"
+       id="text1"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0;stroke-dasharray:none"
+         x="11.96861"
+         y="133.42082"
+         id="tspan6">Fellegi-Holt 1976</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="71.079704"
+       y="95.369202"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0"
+         x="71.079704"
+         y="95.369202">Sander Scholtus 2014</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="71.079704"
+         y="105.95254"
+         id="tspan3" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="102.18628"
+       y="173.13779"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0"
+         x="102.18628"
+         y="173.13779">IHG &quot;AG&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9333px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="185.27368"
+       y="138.82028"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-size:16.9333px;stroke-width:0"
+         x="185.27368"
+         y="138.82028">?</tspan></text>
+  </g>
+</svg>

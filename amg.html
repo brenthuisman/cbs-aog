@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automatisch Output-Gaafmaken</title>
+<style>
+body,
+button,
+input,
+select,
+textarea {
+	background: #fff;
+	color: #000;
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Noto Sans", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 24px;
+}
+#header{
+    padding:20px;
+	background: #EFBC9B;
+	color:#2B214A;font-size: 40px;text-align:center;
+	line-height: 50px;
+}
+#header p{
+    margin:2px;
+}
+div {
+	max-width:100%;
+	width:100%
+}
+div > ul {
+    margin:10px;
+	padding:14px;
+	list-style-type:none;
+	display:inline-block;
+	width:100%;
+    border-radius: 20px;
+}
+div > ul > li:first-child{
+    font-weight:700;
+    padding-bottom:4px;
+}
+div > ul > li:not(:first-child){
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 1em;
+}
+div > ul > li > img {
+    width: 90%;
+    padding: 20px;
+}
+div > ul > li:has(img) {
+    list-style-type: none !important;
+}
+div > ul:nth-child(4n){
+    background-color:#EFBC9B;
+}
+div > ul:nth-child(4n+1){
+    background-color:#FBF3D5;
+}
+div > ul:nth-child(4n+2){
+    background-color:#D6DAC8;
+}
+div > ul:nth-child(4n+3){
+    background-color:#9CAFAA;
+}
+@media all and (min-width:480px){
+#columns {
+	column-count:2;
+	column-gap:40px;
+}}
+@media all and (min-width:960px){
+#columns {
+	column-count:3;
+}}
+</style>
+</head>
+
+<body>
+
+<div id="header">Automatisch (Output) Gaafmaken
+    <p style="font-size:20px">Een script. Of een concept framework voor automatisch output-gaafmaken.</p>
+</div>
+
+<div id="columns">
+
+<ul>
+    <li>Wat is gaafmaken?
+    <li>Fouten uit gegevens halen
+    <li>Waarden omwisselen, consistent maken, vervangen
+</ul>
+
+
+<ul>
+    <li>"Schaal" gaafmaken?
+    <li>Sommige fouten zijn evident: <b>micro-gaafmaken</b>
+    <li>Sommige fouten zie je pas met context: <b>macro-gaafmaken</b>
+    <li>Context toevoegen:
+    <li><img src="schaalgaafmaken.svg">
+    <li>Bedrijfseconomische Statistieken cursus
+        <ul>
+        <li>We maken onderscheid tussen <b>microgaafmaken</b> en <b>macrogaafmaken</b>.
+        <li>Bij het <b>microgaafmaken</b> bekijken we iedere waargenomen eenheid apart. […]
+            <ul>
+            <li>Kan zodra het record bij ons binnen is.
+            </ul>
+        <li>Bij <b>macrogaafmaken</b> bekijken we de (microgaafgemaakte) records tezamen. […]
+            <ul>
+            <li>Alle records binnen een categorie moeten 'binnen' zijn voor er gaafgemaakt kan worden
+            </ul>
+        </ul>
+    </li>
+    
+</ul>
+
+<ul>
+    <li>Wat is automatisch gaafmaken?
+    <li><img src="soortgaafmaken.svg">
+    <li>Software voert (deels?) gaafmaak taken uit.
+    <li>IHG en IHD hebben enkele micro-gaafmaak-algo's in gebruik. PS noemt dat AG. Bijvoorbeeld:
+        <ul><li>Geen koeien door pijpleidingen.
+            <li>Prijzentabel
+        </uL>
+</ul>
+
+<ul>
+    <li>Wat is output-gaafmaken?
+    <li><i>Een</i> manier van <b>macro-gaafmaken</b> is <b>output-gaafmaken</b>
+        <ul>
+        <li>Bereken een output-tabel,
+        <li>bepaal afwijkingen,
+        <li>werk terug naar correcties.
+        </ul>
+    <li><i>Een</i> manier van <b>output-gaafmaken</b> is Felligi-Holt (1976)
+        <ul>
+        <li>Het lijkt ook de enige formele output-gaafmaak-methode te zijn?
+        <li>Scholtus (2014) verder uitgewerkt
+        <li>Basis voor het IHG "AG" script.
+        <li>Wat mij betreft dus een onjuiste naam!
+        <li>Beter: Automatisch-Output-Gaafmaken (AOG)
+        </ul>
+</ul>
+
+
+
+<ul>
+    <li>Fellegi-Holt 1976
+    <li>Neem een 2D tabel
+    <li><img src="tabel.svg">
+    <li>Regels zoals:
+        <ul><li>winst = omzet - kosten
+        <li>som(goederenhandel) over landen = totale goederenhandel
+        <li>als getrouwd, dan leeftijd 16+
+        <li>etc.
+        <li>kunnen zowel <b>micro-gaafmaak</b>- als <b>macro-gaafmaak</b>-regels zijn
+        </ul>
+    <li>Vind kleinste aantal foute cellen dat de tabel aan de regels doet voldoen
+        <ul><li>Cellen zijn fout of goed
+            <li>In feite: <b>consistentie</b> checken
+        </ul>
+    <li>Aandachtspunten:
+        <ul><li>Er is niet altijd een oplossing
+        <li>Er kunnen meerdere oplossingen zijn
+        <li>Geïmputeerde waarde hoeft niet juist te zijn 
+        <li>Ordening regels doet ertoe
+        <li>Afweging: weinig grote fouten versus veel kleine fouten
+        </ul>
+</ul>
+
+<ul>
+    <li>Scholtus 2014
+    <li>Uitbreiding op Fellegi-Holt
+    <li>Formalisme voor imputatie-regels
+    <li>Aanname: invulfouten, niet per se foute cel-waarden. Voorbeelden:
+        <ul><li>verwisseling waarden (e.g. hoeveelheid en StatWaarde)
+        <li>verdeling waarden (vergeten kosten van omzet af te trekken voor winst-veld)
+        <li>minteken
+        <li>etc.
+        <li>Voordeel: wijzigingen in meerdere velden kunnen toch als 1 bewerking tellen.
+        </ul>
+    <li>Vind kleinste aantal <b>bewerkingen</b> die de tabel consistent maken.
+        <ul><li>Bepaal oplossingen (meerdere indien mogelijk)
+            <li>Neem kortste pad in "bewerkingenruimte"
+            <li>Optimaler dan F-H
+                <br>afleiding dat dit een Maximum Likelihood Estimator for error-free record is.
+            <li>Modelleert fouten beter, en komt daardoor tot beter interpreteerbare imputaties.
+        </ul>    
+</ul>
+
+
+<ul>
+    <li>IHG "AG"
+    <li>Bereken verdachtheden per cel op basis van verwachte waarde en verwachte fout
+    <li>Wanneer fout buiten parameter
+        <ul><li>C2, cel = zeker fout, verplicht imputeren
+        <li>C1, cel = misschien fout, kandidaat imputeren indien nodig
+        <li>Wanneer binnen C1: imputeerbaar indien niets anders kan.
+        </ul>
+    <li>Vind oplossing via F-H die voldoet aant
+        <ul><li>Minimaliseer aantal aangepaste cellen
+        <li>Imputeer fout met verdachte waarde
+        <li>Totalen moeten kloppen
+        </ul>
+    <li>Aandachtspunten:
+        <ul><li>Benut Scholtus 2014 niet.
+        <li>1,5% StatWaarde verdwijnt (mogelijk door bias in onze verwachting)
+        <li>Neiging fouten in kleine landen op te hopen, wat evident onjuist is
+        </ul>
+    <li>Als software
+        <ul><li>Proof of concept, code niet van productiekwaliteit
+        <li>Solver is outdated.
+        <li>Ernstige performance issues
+    </ul>
+</ul>
+
+<ul>
+    <li>Conclusie
+    <li><img src="conc.svg">
+    <li>Niet in deze vorm
+    <li>Wat is de scope?
+    <li>AOG is framework voor alle AG. Willen we alle regels aan de solver geven? Zonee, wat wel?
+    <li>Hoe valideren? We krijgen eruit wat we erin stoppen.
+    <li>Nauwer samenwerken met Sander Scholtus / Methodologie, EBN2.x werkgroep
+</ul>
+
+</div>
+
+<div id="header">QR code, naam, linkjes, etc.</div>
+
+</body>
+</html>
