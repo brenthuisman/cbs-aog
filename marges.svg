@@ -30,7 +30,7 @@
      inkscape:window-width="2080"
      inkscape:window-height="1212"
      inkscape:window-x="449"
-     inkscape:window-y="113"
+     inkscape:window-y="57"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -93,79 +93,79 @@
      transform="translate(-36.08255,-93.993229)">
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        x="60.345001"
-       y="133.36279"
+       y="133.32317"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
          x="60.345001"
-         y="133.36279">voorspelling</tspan></text>
+         y="133.32317">voorspelling</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="82.406509"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="82.383934"
        y="155.93324"
        id="text1-0"><tspan
          sodipodi:role="line"
          id="tspan1-7"
-         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="82.406509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="82.383934"
          y="155.93324">Verplicht imputeren</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="82.033974"
-       y="161.03151"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="81.881577"
+       y="165.79395"
        id="text1-0-9"><tspan
          sodipodi:role="line"
          id="tspan1-7-0"
-         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="82.033974"
-         y="161.03151">Desnoods imputeren</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="81.881577"
+         y="165.79395">Desnoods imputeren</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        x="60.220825"
-       y="123.61242"
+       y="123.58414"
        id="text2"><tspan
          sodipodi:role="line"
          id="tspan2"
-         style="stroke-width:0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';stroke-width:0"
          x="60.220825"
-         y="123.61242">C1</tspan></text>
+         y="123.58414">C1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        x="60.220825"
        y="113.83946"
        id="text3"><tspan
          sodipodi:role="line"
          id="tspan3"
-         style="stroke-width:0"
+         style="stroke-width:0;-inkscape-font-specification:'Inclusive Sans';font-family:'Inclusive Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="60.220825"
          y="113.83946">C2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        x="60.220825"
-       y="144.26465"
+       y="144.29292"
        id="text2-3"><tspan
          sodipodi:role="line"
          id="tspan2-9"
-         style="stroke-width:0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';stroke-width:0"
          x="60.220825"
-         y="144.26465">C1</tspan></text>
+         y="144.29292">C1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        x="60.220825"
        y="154.0376"
        id="text3-8"><tspan
          sodipodi:role="line"
          id="tspan3-6"
-         style="stroke-width:0"
+         style="stroke-width:0;-inkscape-font-specification:'Inclusive Sans';font-family:'Inclusive Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="60.220825"
          y="154.0376">C2</tspan></text>
     <path
@@ -215,15 +215,15 @@
        transform="rotate(-90)" />
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
        x="81.881577"
-       y="166.12978"
+       y="160.86359"
        id="text8"><tspan
          sodipodi:role="line"
          id="tspan8"
-         style="fill:#000000;fill-opacity:1;stroke-width:0.5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Inclusive Sans';-inkscape-font-specification:'Inclusive Sans';fill:#000000;fill-opacity:1;stroke-width:0.5"
          x="81.881577"
-         y="166.12978">Eventueel imputeren</tspan></text>
+         y="160.86359">Eventueel imputeren</tspan></text>
     <rect
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
        id="rect8"
