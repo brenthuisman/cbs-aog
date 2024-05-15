@@ -13,62 +13,72 @@ textarea {
 	background: #fff;
 	color: #000;
 	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Noto Sans", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 16px;
-	line-height: 24px;
+	font-size: medium;
+	line-height: 1.5;
 }
 #header{
-    padding:20px;
-	background: #EFBC9B;
-	color:#2B214A;font-size: 40px;text-align:center;
-	line-height: 50px;
+    padding:0.5em;
+	background: #d6e2e9;
+	color:#2B214A;
+    font-size: xxx-large;
+    text-align:center;
+	line-height: 1.5;
+}
+#footer{
+    padding:0.5em;
+	background: #d6e2e9;
+	color:#2B214A;
+    font-size: x-large;
+    text-align:center;
+	line-height: 1.5;
 }
 #header p{
-    margin:2px;
+    margin:0;
+    font-size:large;
 }
-div {
-	max-width:100%;
-	width:100%
+#columns {
+	padding-right:3em;
 }
-div > ul {
-    margin:10px;
-	padding:14px;
-	list-style-type:none;
+#columns > ul, #columns > ol {
+    margin:0.5em;
+	padding:1em;
 	display:inline-block;
 	width:100%;
-    border-radius: 20px;
+    border-radius: 1em;
 }
-div > ul > li:first-child{
+#columns > ul > li:first-child, #columns > ol > li:first-child {
     font-weight:700;
-    padding-bottom:4px;
+    font-size:large;
+    padding-bottom:0.4em;
+	list-style-type:none;
 }
-div > ul > li:not(:first-child){
-    list-style-type: disc;
+#columns > ul > li:not(:first-child), #columns > ol > li:not(:first-child){
     list-style-position: outside;
     margin-left: 1em;
 }
-div > ul > li > img {
+#columns > ul > li > img, di#columnsv > ol > li > img {
     width: 90%;
-    padding: 20px;
+    padding: 1.5em 0;
 }
-div > ul > li:has(img) {
+#columns > ul > li:has(img), #columns > ol > li:has(img) {
     list-style-type: none !important;
 }
-div > ul:nth-child(4n){
-    background-color:#EFBC9B;
+#columns > :nth-child(4n){
+    background-color:#FAE1DD;
 }
-div > ul:nth-child(4n+1){
-    background-color:#FBF3D5;
+#columns > :nth-child(4n+1){
+    background-color:#F8EDEB;
 }
-div > ul:nth-child(4n+2){
-    background-color:#D6DAC8;
+#columns > :nth-child(4n+2){
+    background-color:#E8E8E4;
 }
-div > ul:nth-child(4n+3){
-    background-color:#9CAFAA;
+#columns > :nth-child(4n+3){
+    background-color:#FFE5D9;
 }
 @media all and (min-width:480px){
 #columns {
 	column-count:2;
-	column-gap:40px;
+	column-gap:3em;
 }}
 @media all and (min-width:960px){
 #columns {
@@ -79,43 +89,32 @@ div > ul:nth-child(4n+3){
 
 <body>
 
-<div id="header">Automatisch (Output) Gaafmaken
-    <p style="font-size:20px">Een script. Of een concept framework voor automatisch output-gaafmaken.</p>
+<div id="header">Automatisch Output-Gaafmaken
+    <p>Een script. Of een concept framework voor automatisch output-gaafmaken.</p>
 </div>
 
 <div id="columns">
 
 <ul>
     <li>Wat is gaafmaken?
-    <li>Fouten uit gegevens halen
-    <li>Waarden omwisselen, consistent maken, vervangen
-</ul>
-
-
-<ul>
-    <li>"Schaal" gaafmaken?
-    <li>Sommige fouten zijn evident: <b>micro-gaafmaken</b>
-    <li>Sommige fouten zie je pas met context: <b>macro-gaafmaken</b>
-    <li>Context toevoegen:
-    <li><img src="schaalgaafmaken.svg">
-    <li>Bedrijfseconomische Statistieken cursus
+    <li>Fouten in gegevens vinden en verbeteren
+    <li>Bijv. door waarden omwisselen, consistent maken, vervangen
+    <li>Bij het <b>microgaafmaken</b> bekijken we iedere waargenomen eenheid apart.
         <ul>
-        <li>We maken onderscheid tussen <b>microgaafmaken</b> en <b>macrogaafmaken</b>.
-        <li>Bij het <b>microgaafmaken</b> bekijken we iedere waargenomen eenheid apart. […]
-            <ul>
-            <li>Kan zodra het record bij ons binnen is.
-            </ul>
-        <li>Bij <b>macrogaafmaken</b> bekijken we de (microgaafgemaakte) records tezamen. […]
-            <ul>
-            <li>Alle records binnen een categorie moeten 'binnen' zijn voor er gaafgemaakt kan worden
-            </ul>
+        <li>Kan zodra het record ontvangen is
         </ul>
-    </li>
+    <li>Bij <b>macrogaafmaken</b> bekijken we de (microgaafgemaakte) records tezamen.
+        <ul>
+        <li>Fout pas zichtbaar met context
+        <li>Vereist dat alle records binnen een aggregaat ontvangen zijn
+        </ul>
+    <li><img src="schaalgaafmaken.svg">
+
     
 </ul>
 
 <ul>
-    <li>Wat is automatisch gaafmaken?
+    <li>Wat is <i>automatisch</i> gaafmaken?
     <li><img src="soortgaafmaken.svg">
     <li>Software voert (deels?) gaafmaak taken uit.
     <li>IHG en IHD hebben enkele micro-gaafmaak-algo's in gebruik. PS noemt dat AG. Bijvoorbeeld:
@@ -137,25 +136,24 @@ div > ul:nth-child(4n+3){
         <li>Het lijkt ook de enige formele output-gaafmaak-methode te zijn?
         <li>Scholtus (2014) verder uitgewerkt
         <li>Basis voor het IHG "AG" script.
-        <li>Wat mij betreft dus een onjuiste naam!
-        <li>Beter: Automatisch-Output-Gaafmaken (AOG)
+        <li>Betere naam: <b>Automatisch Output-Gaafmaken (AOG)</b>
         </ul>
 </ul>
 
 
 
 <ul>
-    <li>Fellegi-Holt 1976
+    <li>Literatuur: Fellegi-Holt 1976
     <li>Neem een 2D tabel
     <li><img src="tabel.svg">
-    <li>Regels zoals:
-        <ul><li>winst = omzet - kosten
+    <li>Definieer regels zoals:
+        <ul>
         <li>som(goederenhandel) over landen = totale goederenhandel
-        <li>als getrouwd, dan leeftijd 16+
+        <li>hoeveelheid x prijs_prijzentabel =~ StatWaarde
         <li>etc.
         <li>kunnen zowel <b>micro-gaafmaak</b>- als <b>macro-gaafmaak</b>-regels zijn
         </ul>
-    <li>Vind kleinste aantal foute cellen dat de tabel aan de regels doet voldoen
+    <li>Corrigeer kleinste aantal foute cellen waarmee tabel aan regels voldoet
         <ul><li>Cellen zijn fout of goed
             <li>In feite: <b>consistentie</b> checken
         </ul>
@@ -163,23 +161,22 @@ div > ul:nth-child(4n+3){
         <ul><li>Er is niet altijd een oplossing
         <li>Er kunnen meerdere oplossingen zijn
         <li>Geïmputeerde waarde hoeft niet juist te zijn 
-        <li>Ordening regels doet ertoe
+        <li>Volgorde regels doet ertoe
         <li>Afweging: weinig grote fouten versus veel kleine fouten
         </ul>
 </ul>
 
 <ul>
-    <li>Scholtus 2014
+    <li>Literatuur: Scholtus 2014
     <li>Uitbreiding op Fellegi-Holt
     <li>Formalisme voor imputatie-regels
-    <li>Aanname: invulfouten, niet per se foute cel-waarden. Voorbeelden:
+    <li>Aanname: <b>invulfouten</b>, niet per se foute cel-waarden. Voorbeelden:
         <ul><li>verwisseling waarden (e.g. hoeveelheid en StatWaarde)
         <li>verdeling waarden (vergeten kosten van omzet af te trekken voor winst-veld)
         <li>minteken
-        <li>etc.
         <li>Voordeel: wijzigingen in meerdere velden kunnen toch als 1 bewerking tellen.
         </ul>
-    <li>Vind kleinste aantal <b>bewerkingen</b> die de tabel consistent maken.
+    <li>Vind <b>kleinste aantal bewerkingen</b> die de tabel consistent maken.
         <ul><li>Bepaal oplossingen (meerdere indien mogelijk)
             <li>Neem kortste pad in "bewerkingenruimte"
             <li>Optimaler dan F-H
@@ -190,24 +187,21 @@ div > ul:nth-child(4n+3){
 
 
 <ul>
-    <li>IHG "AG"
-    <li>Bereken verdachtheden per cel op basis van verwachte waarde en verwachte fout
-    <li>Wanneer fout buiten parameter
-        <ul><li>C2, cel = zeker fout, verplicht imputeren
-        <li>C1, cel = misschien fout, kandidaat imputeren indien nodig
-        <li>Wanneer binnen C1: imputeerbaar indien niets anders kan.
-        </ul>
+    <li>Status IHG: "AG" (AOG)
+    <li>Bereken verdachtheden per cel op basis van voorspelde waarde en verwachte fout
+    <li>Wanneer gerapporteerde waarde buiten bandbreedte C1, C2:
+    <li><img src="marges.svg">
     <li>Vind oplossing via F-H die voldoet aant
         <ul><li>Minimaliseer aantal aangepaste cellen
-        <li>Imputeer fout met verdachte waarde
+        <li>Imputeer fout met voorspelde waarde op volgorde van mate van afwijking
         <li>Totalen moeten kloppen
         </ul>
     <li>Aandachtspunten:
         <ul><li>Benut Scholtus 2014 niet.
-        <li>1,5% StatWaarde verdwijnt (mogelijk door bias in onze verwachting)
+        <li>1,5% StatWaarde verdwijnt (mogelijk door bias in onze voorspelling)
         <li>Neiging fouten in kleine landen op te hopen, wat evident onjuist is
         </ul>
-    <li>Als software
+    <li>Als software:
         <ul><li>Proof of concept, code niet van productiekwaliteit
         <li>Solver is outdated.
         <li>Ernstige performance issues
@@ -216,7 +210,7 @@ div > ul:nth-child(4n+3){
 
 <ul>
     <li>Conclusie
-    <li>Niet in deze vorm
+    <li>Niet in huidige proof-of-concept vorm
     <li><img src="conc.svg">
     <li>Maar misschien deze? Maak gebruik van Scholtus 2014.
     <li>Wat is de scope?
@@ -229,7 +223,7 @@ div > ul:nth-child(4n+3){
 
 </div>
 
-<div id="header">Brent Huisman <bfb.huisman@cbs.nl> - brenthuisman.github.io/cbs-aog</div>
+<div id="footer">Brent Huisman - brenthuisman.github.io/cbs-aog</div>
 
 </body>
 </html>

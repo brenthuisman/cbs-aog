@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110.24728mm"
+   height="76.266136mm"
+   viewBox="0 0 110.24728 76.266136"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="marges.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2"
+     inkscape:cx="235.5"
+     inkscape:cy="215.25"
+     inkscape:window-width="2080"
+     inkscape:window-height="1212"
+     inkscape:window-x="449"
+     inkscape:window-y="113"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="35.586456"
+       y1="103.05521"
+       x2="53.710415"
+       y2="103.05521"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-147.70364,-58.241411)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(116.54896,-58.241409)"
+       x1="35.586456"
+       y1="103.05521"
+       x2="53.710415"
+       y2="103.05521" />
+  </defs>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.08255,-93.993229)">
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="60.345001"
+       y="133.36279"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="60.345001"
+         y="133.36279">voorspelling</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="82.406509"
+       y="155.93324"
+       id="text1-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="82.406509"
+         y="155.93324">Verplicht imputeren</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="82.033974"
+       y="161.03151"
+       id="text1-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-7-0"
+         style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="82.033974"
+         y="161.03151">Desnoods imputeren</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="60.220825"
+       y="123.61242"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0"
+         x="60.220825"
+         y="123.61242">C1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="60.220825"
+       y="113.83946"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0"
+         x="60.220825"
+         y="113.83946">C2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="60.220825"
+       y="144.26465"
+       id="text2-3"><tspan
+         sodipodi:role="line"
+         id="tspan2-9"
+         style="stroke-width:0"
+         x="60.220825"
+         y="144.26465">C1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="60.220825"
+       y="154.0376"
+       id="text3-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-6"
+         style="stroke-width:0"
+         x="60.220825"
+         y="154.0376">C2</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Stop)"
+       d="m 57.610858,97.398995 v 14.714535 10.0031 10.0031 10.00311 10.0031 14.71453"
+       id="path5"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="fill:url(#linearGradient6);stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="18.123959"
+       height="17.4625"
+       x="-112.11719"
+       y="36.08255"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.372406;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-6"
+       width="10.054167"
+       height="17.4625"
+       x="-122.08867"
+       y="36.08255"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.372406;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-6-1"
+       width="10.054167"
+       height="17.4625"
+       x="-152.21809"
+       y="36.08255"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:url(#linearGradient7);stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-8"
+       width="18.123959"
+       height="17.4625"
+       x="152.13541"
+       y="36.08255"
+       transform="matrix(0,1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.528391;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-6-7"
+       width="20.240625"
+       height="17.4625"
+       x="-142.24661"
+       y="36.08255"
+       transform="rotate(-90)" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       x="81.881577"
+       y="166.12978"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.5"
+         x="81.881577"
+         y="166.12978">Eventueel imputeren</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8"
+       width="3.0427084"
+       height="3.0427084"
+       x="77.614838"
+       y="152.33385" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8-8"
+       width="3.0427084"
+       height="3.0427084"
+       x="77.614838"
+       y="157.41978" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8-3"
+       width="3.0427084"
+       height="3.0427084"
+       x="77.614838"
+       y="162.50572" />
+  </g>
+</svg>
